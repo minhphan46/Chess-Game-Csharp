@@ -13,8 +13,8 @@ namespace chess
         private int widthBoard;
         private int heightBoard;
 
-        protected int _squareHeight = 50;
-        protected int _squareWidth = 50;
+        protected int _squareHeight = 70;
+        protected int _squareWidth = 70;
         protected Square[,] _squares = new Square[8, 8];
         Form _parentForm;
 
@@ -23,7 +23,7 @@ namespace chess
             get { return _squares; }
         }
 
-        public Board(Form ParentForm, int width = 400, int height = 400)
+        public Board(Form ParentForm, int width = 560, int height = 560)
         {
             this._parentForm = ParentForm;
 

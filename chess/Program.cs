@@ -14,7 +14,7 @@ namespace Chess
         public static Label lb_turn = new Label()
         {
             Text = "White",
-            Location = new Point(438, 130)
+            Location = new Point(588, 175)
     };
         public static void changeTextTurn()
         {
@@ -29,11 +29,11 @@ namespace Chess
             public MyForm()
             {
                 this.Text = "Chess game";
-                this.Size = new System.Drawing.Size(525, 438);
+                this.Size = new System.Drawing.Size(670, 600);
 
                 Label lb1 = new Label();
                 lb1.Text = "===TURN===";
-                lb1.Location = new Point(420,100);
+                lb1.Location = new Point(570, 150);
 
                 Board bd = new Board(this);
 
