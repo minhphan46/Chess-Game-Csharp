@@ -1,5 +1,5 @@
 # Chess Game C#
-Clone this project in Visual Studio
+Clone this project in Microsoft Visual Studio
 
 ## How to Play?
 - Double click to select a Piece
