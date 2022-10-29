@@ -49,10 +49,10 @@
     <Compile Include="Piece.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resource1.Designer.cs">
+    <Compile Include="Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Resource1.resx</DependentUpon>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Square.cs">
       <SubType>Component</SubType>
@@ -62,10 +62,46 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resource1.resx">
+    <EmbeddedResource Include="Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\bishop_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\bishop_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\king_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\king_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\knight_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\knight_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\pawn_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\pawn_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\queen_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\queen_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\rook_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\rook_white.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
